@@ -7,7 +7,5 @@ int main() {
     int locY = 0;
     scanf("%d %d %d %d", &xSize, &ySize, &locX, &locY);
 
-    int board[xSize][ySize];
-
     return 0;
 }
