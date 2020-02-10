@@ -19,6 +19,7 @@ namespace LuoguCode
                           select l;
             if (results.Count() > 0)
             {
+                
                 Console.WriteLine($"{results.Count()} {article.IndexOf(word)}");
             }
             else

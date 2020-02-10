@@ -32,7 +32,7 @@ int main() {
     while (found != string::npos)
     {
         count++;
-        found = article.find(word, found + word.size());
+        found = article.find(word, found + 1);
     }
 
     if (count == 0)
