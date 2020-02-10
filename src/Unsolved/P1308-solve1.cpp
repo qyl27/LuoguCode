@@ -5,16 +5,10 @@
 using namespace std;
 
 string ToLower(string str) {
-    char *final = new char[str.size()];
-    str.copy(final, str.size());
-    string result = string(final);
-
+    string result = string(str);
     for (int i = 0; i < result.size(); i++)
     {
-        if (isupper(result[i]))
-        {
-            tolower(result[i]);
-        }
+        result[i] = tolower(result[i]);
     }
     return result;
 }
