@@ -5,8 +5,10 @@
 using namespace std;
 
 int main() {
-    string input[4] = { "" };
-    
+    int input = 0;
+    cin >> input;
+
+
 
     return 0;
 }
