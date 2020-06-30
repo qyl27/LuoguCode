@@ -7,6 +7,6 @@ int main() {
     int sides = 0;
     cin >> sides;
     
-    cout << ;
+    //cout << ;
     return 0;
 }
