@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -33,13 +32,8 @@ int main() {
             {
                 for (int l = j - 1; l <= j + 1; l++)
                 {
-                    if (k > 0 && k < width && l > 0 && l < height)
+                    if (k >= 0 && k < width && l >= 0 && l < height)
                     {
-                        if (k == i && l == j)
-                        {
-                            continue;
-                        }
-
                         if (bombs[k][l] == '*')
                         {
                             bombCount++;
